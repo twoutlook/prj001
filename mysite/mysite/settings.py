@@ -31,6 +31,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+# === My Note, by Mark, 2017-02-04
+# simple app name will do
+# Simple is better!
+# https://docs.djangoproject.com/en/1.10/intro/tutorial02/
+# 'polls.apps.PollsConfig',
+    'polls',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

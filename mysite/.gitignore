@@ -1,10 +1,18 @@
 *.pyc
+
+# What is this, *~?
 *~
 __pycache__
 myvenv
 
+# === MY NOTE, by Mark 2017-02-04 ===
 # FOR DEVELOPMENT, STILL VERSION CONTROL db.sqlite3
 # FOR PRODUCTION, DON'T VERSION CONTROL db.sqlite3
+# For development purpose, we should still do version control on db.sqlite3
+# When it's in PRODUCTION, DON'T do any version control on db.sqlite3,
+# otherwise it will destroy your real data instantly.
+
+
 #db.sqlite3
 
 /static
