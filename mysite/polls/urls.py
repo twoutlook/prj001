@@ -10,6 +10,9 @@ urlpatterns = [
 
 
     # ex: /polls/5/
+    # https://docs.djangoproject.com/en/1.10/intro/tutorial03/
+    # url(r'^specifics/(?P<question_id>[0-9]+)/$', views.detail, name='detail'),
+
     url(r'^(?P<question_id>[0-9]+)/$', views.detail, name='detail'),
 
     # ex: /polls/5/results/
